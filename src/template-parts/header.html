@@ -1,0 +1,61 @@
+<header class="header">
+    <div class="container">
+        <div class="header__wrap grid">
+            <div class="header__logo-wrap">
+                <svg class="header__logo">
+                    <use xlink:href="images/sprite.svg#logo"></use>
+                </svg>
+            </div>
+
+            <div class="header__hamburger-wrap">
+                <button class="header__hamburger js-nav-toggle" aria-label="Открыть меню">
+                    <svg class="header__hamburger-icon">
+                        <use xlink:href="images/sprite.svg#hamburger"></use>
+                    </svg>
+                </button>
+            </div>
+
+            <nav id="nav" class="header__nav nav">
+                <button class="nav__close js-nav-toggle" aria-label="Закрыть меню">
+                    <svg class="nav__close-icon">
+                        <use xlink:href="images/sprite.svg#close"></use>
+                    </svg>
+                </button>
+
+                <ul class="nav__menu">
+                    <li class="nav__item"><a href="#" class="nav__link">О студии</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Наши проекты</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Мастер-классы</a></li>
+                    <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+                </ul>
+
+                <a href="tel:+749542423532" class="nav__phone phone">
+                    <svg class="phone__icon">
+                        <use xlink:href="images/sprite.svg#phone"></use>
+                    </svg>
+                    +7 495 424-23-532
+                </a>
+            </nav>
+
+            <div class="header__search search">
+                    <button class="search__btn js-search-toggle" aria-label="Открыть поиск">
+                        <svg class="search__icon">
+                            <use xlink:href="images/sprite.svg#search"></use>
+                        </svg>
+                    </button>
+                <div class="search__wrap">
+                    <form action="http://localhost" class="search__form">
+                        <input type="search" class="search__input" placeholder="Что будем иcкать?">
+                    </form>
+
+                    <button class="search__close js-search-toggle" aria-label="Закрыть поиск">
+                        <svg class="search__close-icon">
+                            <use xlink:href="images/sprite.svg#close"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>

@@ -1,0 +1,51 @@
+@import "../variables";
+
+.btn {
+  display: inline-block;
+  @include resetForm;
+  padding: 15.5px 22px;
+  outline: 3px solid transparent;
+  outline-offset: -3px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: white;
+  transition-property: background-color, outline-color, border-color;
+  transition-duration: $transition-duration;
+  transition-timing-function: $transition-function;
+  background-color: var(--primary);
+  &:focus {
+    background-color: var(--primary);
+    outline-color: #ce4307;
+  }
+  &:hover {
+    background-color: #bc572b;
+    outline-color: #bc572b;
+  }
+  &:active {
+    background-color: #ce4307;
+    outline-color: transparent;
+  }
+
+  &_outline {
+    background-color: transparent;
+    outline-color: var(--primary);
+    &:focus {
+      background-color: #bc572b;
+      border-color: var(--primary);
+    }
+    &:hover {
+      background-color: var(--primary);
+    }
+    &:active {
+      background-color: #ce4307;
+      border-color: transparent;
+    }
+  }
+
+  @media screen and (max-width: $break-mobile) {
+    padding: 12px 22px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

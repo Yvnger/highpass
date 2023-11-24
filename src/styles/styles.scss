@@ -1,0 +1,21 @@
+// Base
+@import "mixins";
+@import "variables";
+@import "normalize";
+@import "fonts";
+@import "common";
+
+// Components
+@import "elements/buttons";
+@import "elements/nav";
+@import "elements/search";
+@import "elements/forms";
+
+// Sections
+@import "sections/section";
+@import "sections/header";
+@import "sections/works";
+@import "sections/about";
+@import "sections/projects";
+@import "sections/contacts";
+@import "sections/footer";

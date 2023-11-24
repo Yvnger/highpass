@@ -1,0 +1,58 @@
+<section id="contacts" class="contacts section">
+    <div class="container">
+        <h2 class="section__title contacts__title">Контакты</h2>
+
+        <div class="contacts__wrap grid">
+            <div class="contacts__map-wrap">
+                <div class="contacts__address-wrap">
+                    <address class="contacts__address">
+                        <button class="contacts__address-close" aria-label="Закрыть окно">
+                            <svg class="contacts__address-close-icon">
+                                <use xlink:href="images/sprite.svg#close"></use>
+                            </svg>
+                        </button>
+                        <p class="contacts__address-title">Студия «High pass»</p>
+                        <p class="contacts__address-place">
+                            107045, Москва, Даев переулок, дом 41, бизнес-центр «Даев Плаза», этаж 8, офис № 82
+
+                        </p>
+
+                        <a href="tel:+749542423532" class="contacts__address-phone phone">
+                            <svg class="phone__icon">
+                                <use xlink:href="images/sprite.svg#phone"></use>
+                            </svg>
+                            +7 495 424-23-532
+                        </a>
+                    </address>
+                </div>
+                <div id="map" class="contacts__map"></div>
+            </div>
+
+            <div class="contacts__feedback">
+                <h3 class="contacts__feedback-title">Оставить заявку</h3>
+
+                <p class="contacts__feedback-description">
+                    Оставьте ваши данные, указав в графе «Комментарий» желаемые время и дату съёмки или другого
+                    мероприятия
+                </p>
+
+                <form action="#" id="contacts-form" class="contacts__form form">
+                    <div class="form__input-wrap">
+                        <input type="text" id="name" name="name" class="form__input form__input_light" placeholder="Имя">
+                    </div>
+
+                    <div class="form__input-wrap">
+                        <input type="text" id="email" name="email" class="form__input form__input_light" placeholder="E-mail">
+                    </div>
+
+                    <div class="form__input-wrap">
+                        <textarea class="form__input form__input_light contacts__textarea"
+                                  placeholder="Комментарий"></textarea>
+                    </div>
+
+                    <button class="btn btn_primary">Отправить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
